@@ -6,21 +6,17 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    public class Motorcycle : IVehicle 
+    public class DuneBuggy : IVehicle
     {
-        public Motorcycle()
+        public  DuneBuggy()
         {
         }
-
+        
         public void Drive()
         {
-            Console.WriteLine("The Motorcyle is revving up.");
-            Console.WriteLine("vroom vroom");
+            Console.WriteLine("This is fun");
         }
+
+
     }
-
-
-
-}   
-
-
+}

@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    internal class Car
+    public class Car : IVehicle
     {
+        public Car() 
+        {
+        }
+
+        public void Drive()
+        {
+            Console.WriteLine("The Car is driving smoothly.");
+        }
+            
     }
 }
